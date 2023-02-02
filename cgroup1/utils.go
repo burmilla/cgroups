@@ -37,7 +37,6 @@ func defaults(root string) ([]Subsystem, error) {
 		return nil, err
 	}
 	s := []Subsystem{
-		NewNamed(root, "systemd"),
 		NewFreezer(root),
 		NewPids(root),
 		NewNetCls(root),
