@@ -21,7 +21,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"math"
+	"github.com/containerd/cgroups/math"
 	"os"
 	"path/filepath"
 	"strconv"

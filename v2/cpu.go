@@ -17,7 +17,7 @@
 package v2
 
 import (
-	"math"
+	"github.com/containerd/cgroups/math"
 	"strconv"
 	"strings"
 )

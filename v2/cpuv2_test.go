@@ -18,7 +18,7 @@ package v2
 
 import (
 	"fmt"
-	"math"
+	"github.com/containerd/cgroups/math"
 	"os"
 	"strconv"
 	"testing"

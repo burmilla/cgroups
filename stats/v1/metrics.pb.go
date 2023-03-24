@@ -8,8 +8,8 @@ import (
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
-	math "math"
-	math_bits "math/bits"
+	math "github.com/containerd/cgroups/math"
+	math_bits "github.com/containerd/cgroups/math/bits"
 	reflect "reflect"
 	strings "strings"
 )

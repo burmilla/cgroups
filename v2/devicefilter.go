@@ -29,7 +29,7 @@ package v2
 import (
 	"errors"
 	"fmt"
-	"math"
+	"github.com/containerd/cgroups/math"
 
 	"github.com/cilium/ebpf/asm"
 	"github.com/opencontainers/runtime-spec/specs-go"

@@ -17,7 +17,7 @@
 package cgroups
 
 import (
-	"math"
+	"github.com/containerd/cgroups/math"
 	"os"
 	"path/filepath"
 	"strconv"
